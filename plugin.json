@@ -9,6 +9,9 @@
     "en": "Adds Codex CLI under the Agents category of the new-tab (+) menu — runs the official installer in a terminal if missing"
   },
   "entry": "main.js",
+  "dependencies": {
+    "soksak-plugin-terminal": ">=0.1.0"
+  },
   "permissions": [
     "programs"
   ],
@@ -21,7 +24,9 @@
           "ko": "에이전트",
           "en": "Agents"
         },
-        "kind": "terminal",
+        "kind": "view",
+        "viewPlugin": "soksak-plugin-terminal",
+        "view": "content",
         "command": "codex",
         "ensure": {
           "bin": "codex",
