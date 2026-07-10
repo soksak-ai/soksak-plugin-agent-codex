@@ -16,9 +16,27 @@
     "soksak-plugin-terminal": ">=0.1.0"
   },
   "permissions": [
-    "programs"
+    "programs",
+    "commands",
+    "process"
   ],
   "contributes": {
+    "commands": [
+      {
+        "name": "status",
+        "title": {
+          "ko": "설치 상태 조회",
+          "en": "Installation status"
+        }
+      },
+      {
+        "name": "install",
+        "title": {
+          "ko": "지금 설치 실행",
+          "en": "Run installer now"
+        }
+      }
+    ],
     "programs": [
       {
         "id": "codex",
