@@ -43,7 +43,10 @@
           "en": "Agents"
         },
         "kind": "view",
-        "viewContract": "terminal-spec@1",
+        "viewContract": {
+          "id": "soksak-spec-plugin-terminal",
+          "range": "0.0.1"
+        },
         "view": "content",
         "command": "codex",
         "ensure": {
