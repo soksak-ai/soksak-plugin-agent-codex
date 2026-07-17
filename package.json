@@ -1,0 +1,11 @@
+{
+  "name": "soksak-plugin-agent-codex",
+  "private": true,
+  "version": "0.0.1",
+  "soksakRelease": {
+    "kind": "plugin",
+    "id": "soksak-plugin-agent-codex",
+    "repository": "https://github.com/soksak-ai/soksak-plugin-agent-codex",
+    "manifest": "release.json"
+  }
+}

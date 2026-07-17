@@ -6,10 +6,9 @@
     "ko": "Codex"
   },
   "version": "0.0.1",
-  "repo": "https://github.com/soksak-ai/soksak-plugin-agent-codex.git",
   "description": {
-    "ko": "새 탭(+) 메뉴 에이전트 카테고리에 Codex CLI 를 추가 — 미설치면 공식 설치 명령을 터미널에서 실행한 뒤 사용",
-    "en": "Adds Codex CLI under the Agents category of the new-tab (+) menu — runs the official installer in a terminal if missing"
+    "ko": "\uc0c8 \ud0ed(+) \uba54\ub274 \uc5d0\uc774\uc804\ud2b8 \uce74\ud14c\uace0\ub9ac\uc5d0 Codex CLI \ub97c \ucd94\uac00 \u2014 \ubbf8\uc124\uce58\uba74 \uacf5\uc2dd \uc124\uce58 \uba85\ub839\uc744 \ud130\ubbf8\ub110\uc5d0\uc11c \uc2e4\ud589\ud55c \ub4a4 \uc0ac\uc6a9",
+    "en": "Adds Codex CLI under the Agents category of the new-tab (+) menu \u2014 runs the official installer in a terminal if missing"
   },
   "entry": "main.js",
   "permissions": [
@@ -22,14 +21,14 @@
       {
         "name": "status",
         "title": {
-          "ko": "설치 상태 조회",
+          "ko": "\uc124\uce58 \uc0c1\ud0dc \uc870\ud68c",
           "en": "Installation status"
         }
       },
       {
         "name": "install",
         "title": {
-          "ko": "지금 설치 실행",
+          "ko": "\uc9c0\uae08 \uc124\uce58 \uc2e4\ud589",
           "en": "Run installer now"
         }
       }
@@ -39,7 +38,7 @@
         "id": "codex",
         "title": "Codex",
         "path": {
-          "ko": "에이전트",
+          "ko": "\uc5d0\uc774\uc804\ud2b8",
           "en": "Agents"
         },
         "kind": "view",
